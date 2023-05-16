@@ -22,6 +22,7 @@
 	<domain>imageban.ru</domain>
 	<path-pattern>show/.+</path-pattern>
 	<link-search-pattern>ID: img_main</link-search-pattern>
+	<file-name-attribute>title</file-name-attribute>
 </host>
 
 <host id="akiba-online">
