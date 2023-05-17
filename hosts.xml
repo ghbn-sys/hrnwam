@@ -115,7 +115,6 @@
 	<domain>vfl.ru</domain>
 	<path-pattern>fotos.+</path-pattern>
 	<link-search-pattern>Class: img-fluid</link-search-pattern>
-	<file-name-attribute>alt</file-name-attribute>
 </host>
 
 <host id="coppermine">
