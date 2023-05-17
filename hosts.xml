@@ -24,6 +24,11 @@
 	<link-search-pattern>ID: img_main</link-search-pattern>
 	<file-name-attribute>alt</file-name-attribute>
 </host>
+	<host id="vipr">
+	<domain>vipr.im</domain>
+	<path-pattern>\w+</path-pattern>
+	<link-search-pattern>Class: pic img img-responsive</link-search-pattern>
+</host>
 
 <host id="akiba-online">
 	<domain>akiba-online.com</domain>
