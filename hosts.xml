@@ -24,10 +24,15 @@
 	<link-search-pattern>ID: img_main</link-search-pattern>
 	<file-name-attribute>alt</file-name-attribute>
 </host>
-	<host id="vipr">
+	<host id="vipr.im">
 	<domain>vipr.im</domain>
 	<path-pattern>\w+</path-pattern>
 	<link-search-pattern>Class: pic img img-responsive</link-search-pattern>
+</host>
+	<host id="imx.to">
+	<domain>imx.to</domain>
+	<path-pattern>u/t/.+</path-pattern>
+	<link-search-pattern>REPLACE: 'u/t/','u/i/'</link-search-pattern>
 </host>
 
 <host id="akiba-online">
