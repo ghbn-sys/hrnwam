@@ -110,6 +110,11 @@
 	<path-pattern><![CDATA[(image|view)/[^&<>"]+]]></path-pattern>
 	<link-search-pattern>Class: image img-fluid</link-search-pattern>
 </host>
+	<host id="vflru">
+	<domain>vfl.ru</domain>
+	<path-pattern>fotos.+</path-pattern>
+	<link-search-pattern>Class: img-fluid</link-search-pattern>
+</host>
 
 <host id="coppermine">
 	<!-- No specific domain here -->
