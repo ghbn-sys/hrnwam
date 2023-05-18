@@ -82,6 +82,7 @@
 	<domain>pixroute.com</domain>
 	<path-pattern><![CDATA[[^/]+/[^/&<>"]+]]></path-pattern>
 	<link-search-pattern>ID: imgpreview</link-search-pattern>
+	<file-name-attribute>alt</file-name-attribute>
 </host>
 
 <host id="akiba-online">
