@@ -59,11 +59,6 @@
 	<path-pattern>i.+</path-pattern>
 	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
 </host>
-	<host id="fastpic.org">
-	<domain>fastpic.org</domain>
-	<path-pattern><![CDATA[(image|view)/[^&<>"]+]]></path-pattern>
-	<link-search-pattern>Class: image img-fluid</link-search-pattern>
-</host>
 	<host id="vfl.ru">
 	<domain>vfl.ru</domain>
 	<path-pattern>fotos.+</path-pattern>
