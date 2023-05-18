@@ -78,6 +78,12 @@
 	<interceptor>replace: '_0.gif','.gif'</interceptor>
 	<interceptor>replace: '_0.jpeg','.jpeg'</interceptor>
 </host>
+	<host id="pixroute.com">
+	<domain>pixroute.com</domain>
+	<path-pattern>[^/]+/[^/]+</path-pattern>
+	<link-search-pattern>ID: imgpreview</link-search-pattern>
+	<file-name-attribute>alt</file-name-attribute>
+</host>
 
 <host id="akiba-online">
 	<domain>akiba-online.com</domain>
