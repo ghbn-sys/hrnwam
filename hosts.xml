@@ -69,7 +69,7 @@
 	<path-pattern>fotos.+</path-pattern>
 	<link-search-pattern>Class: img-fluid</link-search-pattern>
 </host>
-	<host id="pimpandhost">
+	<host id="pimpandhost.com">
 	<domain>pimpandhost.com</domain>
 	<path-pattern>image/.+</path-pattern>
 	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
