@@ -84,6 +84,12 @@
 	<path-pattern>view/.+</path-pattern>
 	<link-search-pattern>Class: image img-fluid</link-search-pattern>
 </host>
+	<host id="girlspic.net">
+	<domain>girlspic.net</domain>
+	<path-pattern>image/.+</path-pattern>
+	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
+	<file-name-attribute>alt</file-name-attribute>
+</host>
 
 <host id="akiba-online">
 	<domain>akiba-online.com</domain>
