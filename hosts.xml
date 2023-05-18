@@ -69,6 +69,15 @@
 	<path-pattern>fotos.+</path-pattern>
 	<link-search-pattern>Class: img-fluid</link-search-pattern>
 </host>
+	<host id="pimpandhost">
+	<domain>pimpandhost.com</domain>
+	<path-pattern>image/.+</path-pattern>
+	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
+	<interceptor>replace: '_0.jpg','.jpg'</interceptor>
+	<interceptor>replace: '_0.png','.png'</interceptor>
+	<interceptor>replace: '_0.gif','.gif'</interceptor>
+	<interceptor>replace: '_0.jpeg','.jpeg'</interceptor>
+</host>
 
 <host id="akiba-online">
 	<domain>akiba-online.com</domain>
