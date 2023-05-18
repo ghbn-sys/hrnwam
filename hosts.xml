@@ -84,6 +84,11 @@
 	<link-search-pattern>ID: imgpreview</link-search-pattern>
 	<file-name-attribute>alt</file-name-attribute>
 </host>
+	<host id="fastpic.org">
+	<domain>fastpic.org</domain>
+	<path-pattern>view/.+</path-pattern>
+	<link-search-pattern>Class: image img-fluid</link-search-pattern>
+</host>
 
 <host id="akiba-online">
 	<domain>akiba-online.com</domain>
