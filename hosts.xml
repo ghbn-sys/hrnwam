@@ -87,8 +87,7 @@
 	<host id="girlspic.net">
 	<domain>girlspic.net</domain>
 	<path-pattern>image/.+</path-pattern>
-	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
-	<file-name-attribute>alt</file-name-attribute>
+	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern
 </host>
 
 <host id="akiba-online">
