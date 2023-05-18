@@ -34,6 +34,41 @@
 	<path-pattern>u/t/.+</path-pattern>
 	<link-search-pattern>REPLACE: 'u/t/','u/i/'</link-search-pattern>
 </host>
+	<host id="ibb.co">
+	<domain>ibb.co</domain>
+	<path-pattern>\w+</path-pattern>
+	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
+</host>
+	<host id="jpg.fishing">
+	<domain>jpg.fishing</domain>
+	<path-pattern>img.+</path-pattern>
+	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
+</host>
+	<host id="jpg.fish">
+	<domain>jpg.fish</domain>
+	<path-pattern>img.+</path-pattern>
+	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
+</host>
+	<host id="jpg.church">
+	<domain>jpg.church</domain>
+	<path-pattern>img.+</path-pattern>
+	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
+</host>
+	<host id="radikal.host">
+	<domain>radikal.host</domain>
+	<path-pattern>i.+</path-pattern>
+	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
+</host>
+	<host id="fastpic.org">
+	<domain>fastpic.org</domain>
+	<path-pattern><![CDATA[(image|view)/[^&<>"]+]]></path-pattern>
+	<link-search-pattern>Class: image img-fluid</link-search-pattern>
+</host>
+	<host id="vfl.ru">
+	<domain>vfl.ru</domain>
+	<path-pattern>fotos.+</path-pattern>
+	<link-search-pattern>Class: img-fluid</link-search-pattern>
+</host>
 
 <host id="akiba-online">
 	<domain>akiba-online.com</domain>
@@ -89,42 +124,6 @@
 	<domain>celebscentral.net</domain>
 	<path-pattern>photo/.+</path-pattern>
 	<link-search-pattern>ID: thepic</link-search-pattern>
-</host>
-
-<host id="ibb.co">
-	<domain>ibb.co</domain>
-	<path-pattern>\w+</path-pattern>
-	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
-</host>
-	<host id="jpg.fishing">
-	<domain>jpg.fishing</domain>
-	<path-pattern>img.+</path-pattern>
-	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
-</host>
-	<host id="jpg.fish">
-	<domain>jpg.fish</domain>
-	<path-pattern>img.+</path-pattern>
-	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
-</host>
-	<host id="jpg.church">
-	<domain>jpg.church</domain>
-	<path-pattern>img.+</path-pattern>
-	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
-</host>
-	<host id="radikal.host">
-	<domain>radikal.host</domain>
-	<path-pattern>i.+</path-pattern>
-	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
-</host>
-	<host id="fastpic.org">
-	<domain>fastpic.org</domain>
-	<path-pattern><![CDATA[(image|view)/[^&<>"]+]]></path-pattern>
-	<link-search-pattern>Class: image img-fluid</link-search-pattern>
-</host>
-	<host id="vflru">
-	<domain>vfl.ru</domain>
-	<path-pattern>fotos.+</path-pattern>
-	<link-search-pattern>Class: img-fluid</link-search-pattern>
 </host>
 
 <host id="coppermine">
