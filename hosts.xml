@@ -61,7 +61,7 @@
 </host>
 	<host id="vfl.ru">
 	<domain>vfl.ru</domain>
-	<path-pattern>fotos.+</path-pattern>
+	<path-pattern>fotos/.+</path-pattern>
 	<link-search-pattern>Class: img-fluid</link-search-pattern>
 </host>
 	<host id="pimpandhost.com">
