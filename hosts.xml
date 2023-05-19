@@ -41,17 +41,17 @@
 </host>
 	<host id="jpg.fishing">
 	<domain>jpg.fishing</domain>
-	<path-pattern>img.+</path-pattern>
+	<path-pattern>img/.+</path-pattern>
 	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
 </host>
 	<host id="jpg.fish">
 	<domain>jpg.fish</domain>
-	<path-pattern>img.+</path-pattern>
+	<path-pattern>img/.+</path-pattern>
 	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
 </host>
 	<host id="jpg.church">
 	<domain>jpg.church</domain>
-	<path-pattern>img.+</path-pattern>
+	<path-pattern>img/.+</path-pattern>
 	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
 </host>
 	<host id="radikal.host">
