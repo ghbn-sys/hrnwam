@@ -56,7 +56,7 @@
 </host>
 	<host id="radikal.host">
 	<domain>radikal.host</domain>
-	<path-pattern>i.+</path-pattern>
+	<path-pattern>i/.+</path-pattern>
 	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
 </host>
 	<host id="vfl.ru">
