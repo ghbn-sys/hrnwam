@@ -94,6 +94,11 @@
 	<path-pattern><![CDATA[[^/]+/[^/&<>"]+]]></path-pattern>
 	<link-search-pattern>Class: pic img img-responsive</link-search-pattern>
 </host>
+	<host id="filehost.cc">
+	<domain>filehost.cc</domain>
+	<path-pattern>affiliate/.+</path-pattern>
+	<link-search-pattern>expreg: ([^"]+)" ([^"]+)</link-search-pattern>
+</host>
 
 <host id="akiba-online">
 	<domain>akiba-online.com</domain>
