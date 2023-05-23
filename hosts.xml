@@ -110,6 +110,11 @@
 	<path-pattern><![CDATA[[^/&<>"]+]]></path-pattern>
 	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
 </host>
+	<host id="picstate.com">
+	<domain>picstate.com</domain>
+	<path-pattern>(thumbs/small/.+|files/.+)</path-pattern>
+	<link-search-pattern>REPLACE: 'thumbs/small/','files/'</link-search-pattern>
+</host>
 
 <host id="akiba-online">
 	<domain>akiba-online.com</domain>
