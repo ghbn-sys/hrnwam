@@ -85,7 +85,7 @@
 	<path-pattern>view/.+</path-pattern>
 	<link-search-pattern>Class: image img-fluid</link-search-pattern>
 </host>
-	<host id="girlspic">
+	<host id="girlspic.net">
 	<domain>girlspic.net</domain>
 	<path-pattern>image/.+</path-pattern>
 	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
@@ -104,6 +104,11 @@
 	<domain>acidimg.cc</domain>
 	<path-pattern>upload/small/.+</path-pattern>
 	<link-search-pattern>REPLACE: 'acidimg.cc/upload/small/','i.acidimg.cc/i/'</link-search-pattern>
+</host>
+	<host id="pixxxels.cc">
+	<domain>pixxxels.cc</domain>
+	<path-pattern><![CDATA[[^/&<>"]+]]></path-pattern>
+	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
 </host>
 
 <host id="akiba-online">
