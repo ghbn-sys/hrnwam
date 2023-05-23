@@ -112,7 +112,7 @@
 </host>
 	<host id="picstate.com">
 	<domain>picstate.com</domain>
-	<path-pattern>(thumbs/small/.+|files/.+)</path-pattern>
+	<path-pattern>(thumbs/small/.+|files/.*)</path-pattern>
 	<link-search-pattern>REPLACE: 'thumbs/small/','files/'</link-search-pattern>
 </host>
 
