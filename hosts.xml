@@ -31,8 +31,9 @@
 </host>
 	<host id="imx.to">
 	<domain>imx.to</domain>
-	<path-pattern>u/t/.+</path-pattern>
-	<link-search-pattern>REPLACE: 'u/t/','u/i/'</link-search-pattern>
+	<path-pattern>(u/t/.+|upload/small/.*)</path-pattern>
+	<link-search-pattern>REPLACE: 'imx.to/upload/small/','i001.imx.to/i/'</link-search-pattern>
+	<interceptor>REPLACE: 'u/t/','u/i/'</interceptor>
 </host>
 	<host id="ibb.co">
 	<domain>ibb.co</domain>
