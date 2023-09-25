@@ -105,6 +105,13 @@
 	<path-pattern>(thumbs/small/.+|files/.*)</path-pattern>
 	<link-search-pattern>REPLACE: 'thumbs/small/','files/'</link-search-pattern>
 </host>
+	<host id="bootysource.com">
+	<domain>bootysource.com</domain>
+	<path-pattern>img(?!.*Thumb).+\.(jpg|jpeg|gif)</path-pattern>
+	<link-search-pattern>self</link-search-pattern>
+	<interceptor>REPLACE: '_small',''</interceptor>
+	<interceptor>REPLACE: '_tn',''</interceptor>
+</host>
 
 <host id="akiba-online">
 	<domain>akiba-online.com</domain>
