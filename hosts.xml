@@ -122,6 +122,11 @@
 	<path-pattern><![CDATA[(?<!l)v/.+]]></path-pattern>
 	<link-search-pattern>CSS query: video source[type="video/mp4"], video source[type="video/mkv"], video source[type="video/quicktime"]</link-search-pattern>
 </host>
+	<host id="classeur">
+	<domain>classeur.ru</domain>
+	<path-pattern><![CDATA[stamps/api/attraction/.+(?<!tmbn\.(jpg|jpeg|png|gif))]]></path-pattern>
+	<link-search-pattern>self</link-search-pattern>
+</host>
 
 <host id="akiba-online">
 	<domain>akiba-online.com</domain>
