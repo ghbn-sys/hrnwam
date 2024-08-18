@@ -113,12 +113,12 @@
 	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
 </host>
 	<host id="bunkr.pic">
-	<domain-pattern>bunkr.[a-z]{2,9}</domain-pattern>
+	<domain-pattern>bunkr{2,9}\.[a-z]{2,9}</domain-pattern>
 	<path-pattern><![CDATA[(?<!vk)i/.+]]></path-pattern>
 	<link-search-pattern>CSS query: div.lightgallery img[src]</link-search-pattern>
 </host>
 	<host id="bunkr.vid">
-	<domain-pattern>bunkr.[a-z]{2,9}</domain-pattern>
+	<domain-pattern>bunkr{2,9}\.[a-z]{2,9}</domain-pattern>
 	<path-pattern><![CDATA[(?<!l)v/.+]]></path-pattern>
 	<link-search-pattern>CSS query: video source[type="video/mp4"], video source[type="video/mkv"], video source[type="video/quicktime"]</link-search-pattern>
 </host>
