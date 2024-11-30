@@ -127,6 +127,11 @@
 	<path-pattern><![CDATA[stamps/api/attraction/.+(?<!tmbn\.(jpg|jpeg|png|gif))]]></path-pattern>
 	<link-search-pattern>self</link-search-pattern>
 </host>
+	<host id="coomer">
+	<domain>coomer.su</domain>
+	<path-pattern><![CDATA[(?<!thumbnail/)data/.*\?f=.+]]></path-pattern>
+	<link-search-pattern>self</link-search-pattern>
+</host>
 
 <host id="akiba-online">
 	<domain>akiba-online.com</domain>
