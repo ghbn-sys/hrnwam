@@ -115,7 +115,7 @@
 	<host id="bunkr.pic">
 	<domain-pattern>bunkr{2,9}\.[a-z]{2,9}</domain-pattern>
 	<path-pattern><![CDATA[(?<!vk)i/.+]]></path-pattern>
-	<link-search-pattern>CSS query: div.lightgallery img[src]</link-search-pattern>
+	<link-search-pattern>CSS query: img[src$=".jpg"], img[src$=".jpeg"], img[src$=".png"], img[src$=".gif"], img[src$=".webp"], img[src$=".bmp"]</link-search-pattern>
 </host>
 	<host id="bunkr.vid">
 	<domain-pattern>bunkr{2,9}\.[a-z]{2,9}</domain-pattern>
