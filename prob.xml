@@ -127,11 +127,10 @@
 	<path-pattern><![CDATA[stamps/api/attraction/.+(?<!tmbn\.(jpg|jpeg|png|gif))]]></path-pattern>
 	<link-search-pattern>self</link-search-pattern>
 </host>
-	<host id="coomer">
 	<domain>coomer.su</domain>
-	<path-pattern>user/.*\post.+</path-pattern>
-	<path-pattern><![CDATA[(?<!thumbnail/)data/.*\?f=.+]]></path-pattern>
-	<link-search-pattern>self</link-search-pattern>
+    <path-pattern>user/.*\post.+</path-pattern>
+    <path-pattern><![CDATA[(?<!thumbnail/)data/.*\?f=.+]]></path-pattern>
+    <link-search-pattern><![CDATA[expreg: (?<!thumbnail/)data/.*\?f=.+]]></link-search-pattern>
 </host>
 
 </root>
