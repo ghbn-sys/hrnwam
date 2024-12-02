@@ -129,6 +129,7 @@
 </host>
 	<host id="coomer">
 	<domain>coomer.su</domain>
+		<path-pattern>user/.*\post.+</path-pattern>
 	<path-pattern><![CDATA[(?<!thumbnail/)data/.*\?f=.+]]></path-pattern>
 	<link-search-pattern>self</link-search-pattern>
 </host>
