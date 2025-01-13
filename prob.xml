@@ -45,10 +45,10 @@
 	<path-pattern>i/.+</path-pattern>
 	<link-search-pattern><![CDATA[expreg: <meta property="og:image"\s+content="([^"]+)"]]></link-search-pattern>
 </host>
-	<host id="vfl.ru">
-	<domain>vfl.ru</domain>
-	<path-pattern>fotos/.+</path-pattern>
-	<link-search-pattern>Class: img-fluid</link-search-pattern>
+	<host id="x">
+	<domain-pattern>xrares.com</domain-pattern>
+	<path-pattern>video/.+</path-pattern>
+	<link-search-pattern>CSS query: video source[type="video/mp4"], video source[type="video/mkv"], video source[type="video/quicktime"]</link-search-pattern>
 </host>
 	<host id="pimpandhost.com">
 	<domain>pimpandhost.com</domain>
